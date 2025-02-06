@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    color: #000000;
+}
+
+
+
+.sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+    font-variation-settings: '400';
+    font-size: 1.2em;
+}
+
+.Merriweather {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.Edu {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+
+.first-section {
+    margin-top: -22px !important;
+}
+
+.main {
+    text-decoration: none;
+    font-size: 1.4em;
+    height: 60px;
+    backdrop-filter: blur(40px);
+    padding-top: -50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.main > ul {
+    padding-top: 15px;
+}
+
+.img {
+    position: relative;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+    overflow: hidden;
+    float: right;
+}
+
+.main > ul > li {
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline;
+    padding: 10px;
+}
+
+.main > ul > li > a {
+    float: left;
+    margin-right: 50px;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    color: rgb(0, 0, 0);
+}
+
+.main > ul > li > a:hover {
+    color: rgb(116, 116, 116);
+}
+
+.main-2 {
+    margin: 0;
+    width: 99%;
+    display: flex;
+    margin-left: -35px;
+    list-style: none;
+    overflow: hidden;
+}
+
+
+.type {
+    text-align: center;
+    width: 19.8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 100%;
+    font-size: 1.3em;
+    border: 0.01px solid rgb(72, 75, 77);
+}
+.main-1 {
+    background: #353148;
+    color: #ffffff;
+    margin-top: 30px;
+    width: 99%;
+    display: flex;
+    margin-left: -35px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.name {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+.selections {
+
+    display: flex;
+    padding-left: 30%;
+    align-items: center;
+    align-items: center;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.selection {
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+.submition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width : 1200px) {
+.selections {
+    padding-left: 25%;
+}
+}
+
+@media only screen and (max-width : 1000px) {
+    .selections {
+        padding-left: 20%;
+    }
+    }
+
+@media only screen and (max-width : 1000px) {
+    .selections {
+        padding-left: 15%;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+    .selections {
+        padding-left: 10%;
+    }
+    body {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .main > ul > li {
+        padding: 5px;
+    }
+    .selections {
+        padding-left: 5%;
+    }
+    body {
+        font-size: 0.7em;
+    }
+}
