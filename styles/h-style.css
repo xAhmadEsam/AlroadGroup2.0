@@ -159,6 +159,10 @@ video {
     height: 400px;
 }
 
+.third {
+    display: grid;
+    align-items: center;
+}
 .alroad {
     background-image: linear-gradient(158deg, rgba(133,98,1,1) 0%, rgba(255,227,0,1) 24%, rgba(133,98,1,1) 67%, rgba(255,227,0,1) 100%);
     color: transparent;
@@ -652,6 +656,14 @@ video {
         height: 1550px;
     }
 }
+@media only screen and (max-width : 325px) {
+
+    .btn {
+        margin-top: -170px;
+        position: absolute;
+        margin-left: -23.5%;
+    }
+}
 
 @media only screen and (max-width : 300px) {
     .alroad {
@@ -693,6 +705,15 @@ video {
     }
     .cont {
         height: 1650px;
+    }
+}
+
+@media only screen and (max-width : 270px) {
+
+    .btn {
+        margin-top: -220px;
+        position: absolute;
+        margin-left: -23.5%;
     }
 }
 

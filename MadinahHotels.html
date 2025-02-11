@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Makkah Hotels</title>
+        <link rel="stylesheet" href="styles/Makkah.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img  src="asets/Img/photo_2024-09-23_22-05-46-removebg-preview.png" width="70" height="70" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">الاعاشة والتموين</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        الفنادق
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="MakkahHotels.html">فنادق مكة </a>
+                        <a class="dropdown-item" href="MadinahHotels.html">فنادق المدينة</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Home.html">الرئيسية </a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <div class="third-section">
+        <div class="name-1 kanit-black"><span class="alroad kanit-black"> فنادق المدينة المنورة</span> </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark btn-1" data-toggle="modal" data-target="#exampleModalCenter">
+            فلتر الفنادق
+        </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">فلتر الفنادق</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <span class="sans">المنطقة </span>
+                    <select name="State" id="State">
+                        <option value="nothin" selected >اختر </option>
+                        <option value="جبل الكعبة" class="sans">جبل الكعبة</option>
+                        <option value="جبل عمر" class="sans">جبل عمر</option>
+                        <option value="شارع أجياد" class="sans">شارع أجياد</option>
+                        <option value="كدي" class="sans">كدي</option>
+                        <option value="ريع بخش" class="sans">ريع بخش</option>
+                        <option value="محبس الجن" class="sans">محبس الجن</option>
+                        <option value="ابراهيم الخليل" class="sans">ابراهيم الخليل</option>
+                        <option value="الغزة" class="sans">الغزة</option>
+                        <option value="التيسير" class="sans">التيسير</option>
+                    </select>
+                </div>
+                <div class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">    
+                    <span class="sans">البعد </span>
+                    <select name="distince" id="distince">
+                        <option value="nothin" selected >اختر</option>
+                        <option value="الحرم" class="sans">الحرم</option>
+                        <option value="400" class="sans">400</option>
+                        <option value="700" class="sans">700</option>
+                        <option value="900" class="sans">900</option>
+                        <option value="نقل" class="sans">نقل</option>
+                    </select>
+                </div>
+                <div class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <span class="sans">التقييم</span>
+                    <select name="rating" id="rating">
+                        <option value="nothin" selected >اختر</option>
+                        <option value="5" class="sans">5</option>
+                        <option value="4" class="sans">4</option>
+                        <option value="3" class="sans">3</option>
+                        <option value="اقتصادي" class="sans">اقتصادي</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+            <button type="submit" class="btn btn-warning" id="submit">بحث</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="hotels">
+        
+    </div>
+
+
+    <div class="footer-clean">
+        <div class="line"></div>
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Alrouad Group</h3>
+                    </div> 
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Hotels</h3>
+                        <ul>
+                            <li><a href="#">Makkah hotels</a></li>
+                            <li><a href="#">Madinah hotels</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Alroad Group © 2024</p>
+                    </div>   
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="scripts/madinahHotelsRender.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
