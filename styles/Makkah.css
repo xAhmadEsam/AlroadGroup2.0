@@ -34,6 +34,7 @@ body {
 
 /*-----------------------------body--------------------*/
 
+
 .third-section {
     display: grid;
     align-items: center;
@@ -50,7 +51,11 @@ body {
 
 }
 
-
+.modal-body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 
 .line {
     display: block;
