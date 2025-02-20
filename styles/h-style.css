@@ -116,7 +116,9 @@ video {
 
 .social {
     padding: 0px 20px;
-    transition: 0.7s ease-in;
+}
+.social img{
+    transition: 0.2s ease-in-out;
 }
 
 .social img:hover {
