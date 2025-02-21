@@ -87,6 +87,12 @@ video {
     filter: drop-shadow(2px 2px #000000) ;
 }
 
+#c-name-1 {
+    font-size: 2.5em;
+    text-align: center;
+    filter: drop-shadow(2px 2px #000000) ;
+}
+
 .speach{
     font-size: 1.3em;
     color: #f0f0f0;
@@ -601,14 +607,20 @@ video {
 @media only screen and (max-width : 500px) {
 
     .socials {
-        grid-template-columns: repeat(6, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         border-radius: 0px;
         height: 90px;
     }
-    .social img {
-        width: 32px;
-        
+
+    .socail {
+        width: 48px; /* Adjust the size of the icons */
+        height: 48px;
+        margin: 10px; /* Adjust spacing between icons */
     }
+    
+    
     
     .lft{
         float: left;
@@ -625,6 +637,9 @@ video {
 @media only screen and (max-width : 410px) {
     #c-name {
         font-size: 0.93em;
+    }
+    #c-name-1 {
+        font-size: 0.73em;
     }
     .socials {
         width: 90%;
@@ -660,7 +675,9 @@ video {
 
 
 @media only screen and (max-width : 300px) {
-    
+    #c-name-1 {
+        font-size: 0.60em;
+    }
 
     .social {
         padding: 0px 5px;
