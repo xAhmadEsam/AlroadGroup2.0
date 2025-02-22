@@ -88,7 +88,7 @@ video {
 }
 
 #c-name-1 {
-    font-size: 2.5em;
+    font-size: 1.2em;
     text-align: center;
     filter: drop-shadow(2px 2px #000000) ;
 }
@@ -517,6 +517,9 @@ video {
     }
 }
 @media only screen and (max-width : 1000px){
+    #c-name-1 {
+        font-size: 0.80em;
+    }
     
 
     .first-section {
