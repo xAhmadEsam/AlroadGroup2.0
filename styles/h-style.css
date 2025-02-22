@@ -90,7 +90,7 @@ video {
 #c-name-1 {
     font-size: 1.2em;
     text-align: center;
-    filter: drop-shadow(2px 2px #000000) ;
+    filter: drop-shadow(2px 2px #b4b3b3) ;
 }
 
 .speach{
@@ -678,6 +678,9 @@ video {
 }
 
 @media only screen and (max-width : 500px) {
+    #c-name-1 {
+        font-size: 0.63em;
+    }
     .button-86 {
         width: 60px;
         height: 30px;
@@ -716,7 +719,7 @@ video {
         font-size: 0.93em;
     }
     #c-name-1 {
-        font-size: 0.73em;
+        font-size: 0.53em;
     }
     .socials {
         width: 90%;
@@ -753,7 +756,7 @@ video {
 
 @media only screen and (max-width : 300px) {
     #c-name-1 {
-        font-size: 0.60em;
+        font-size: 0.42em;
     }
 
     .social {
