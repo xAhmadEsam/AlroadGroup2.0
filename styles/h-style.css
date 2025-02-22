@@ -608,6 +608,10 @@ video {
 }
 
 @media only screen and (max-width : 500px) {
+    .button-86 {
+        width: 60px;
+        height: 30px;
+    }
 
     .socials {
         display: flex;
