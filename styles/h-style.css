@@ -6,6 +6,13 @@ body {
     background-repeat: repeat;
 }
 
+.kanit-bold {
+    font-size: 1.1em;
+}
+
+.navbarNavDropdown {
+    margin-right: -100px;
+}
 .reem-kufi-ink-regular {
     font-family: "Reem Kufi Ink", serif;
     font-weight: 400;
