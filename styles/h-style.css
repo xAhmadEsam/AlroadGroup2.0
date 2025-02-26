@@ -6,12 +6,32 @@ body {
     background-repeat: repeat;
 }
 
-.kanit-bold {
+
+
+.cairo {
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  .cairo-1 {
     font-size: 1.1em;
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+.kanit-bold {
+    font-size: 1.05em;
 }
 
 .itmss {
-    margin-left:10%;
+    margin-left:12%;
 }
 .reem-kufi-ink-regular {
     font-family: "Reem Kufi Ink", serif;
@@ -587,6 +607,11 @@ video {
 }
 
 @media only screen and (max-width : 1400px){
+
+    
+.itmss {
+    margin-left:14%;
+}
     .socials {
         width: 80%;
         margin-left: 10%;
@@ -594,6 +619,10 @@ video {
 }
 
 @media only screen and (max-width : 1200px){
+    
+.itmss {
+    margin-left:16%;
+}
     .socials {
         width: 90%;
         margin-left: 5%;
@@ -729,7 +758,7 @@ video {
 
 @media only screen and (max-width : 410px) {
     #c-name {
-        font-size: 0.93em;
+        font-size: 0.99em;
     }
     #c-name-1 {
         font-size: 0.53em;
