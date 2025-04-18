@@ -1,7 +1,7 @@
 export const hotels = [
     {
         hotel : "أنجم",
-        img : "asets/Img/makkah/kuddy.jpg",
+        img : "asets/Img/makkah/a1.jpg",
         speach : "Situated in Makkah, within 3.5 km of Masjid Al Haram and 10 km of Hira Cave, كــــدي تــــــاور ـــ Kudi Tower features accommodation with a restaurant and free WiFi throughout the property as well as free private parking for guests who drive.",
         city : "مكة المكرمة",
         from : "جبل الكعبة",
@@ -12,7 +12,7 @@ export const hotels = [
         fb : 'الحرم'
     },{
         hotel : "شيراتون",
-        img : "asets/Img/makkah/kuddy.jpg",
+        img : "asets/Img/makkah/a2.jpg",
         speach : "Situated in Makkah, within 3.5 km of Masjid Al Haram and 10 km of Hira Cave, كــــدي تــــــاور ـــ Kudi Tower features accommodation with a restaurant and free WiFi throughout the property as well as free private parking for guests who drive.",
         city : "مكة المكرمة",
         from : "جبل الكعبة",
@@ -23,7 +23,7 @@ export const hotels = [
         fb : 'الحرم'
     },{
         hotel : "شذا مكة",
-        img : "asets/Img/makkah/kuddy.jpg",
+        img : "asets/Img/makkah/a3.jpg",
         speach : "Situated in Makkah, within 3.5 km of Masjid Al Haram and 10 km of Hira Cave, كــــدي تــــــاور ـــ Kudi Tower features accommodation with a restaurant and free WiFi throughout the property as well as free private parking for guests who drive.",
         city : "مكة المكرمة",
         from : "جبل الكعبة",
