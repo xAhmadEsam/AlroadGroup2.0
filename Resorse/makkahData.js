@@ -34,7 +34,7 @@ export const hotels = [
         fb : 'الحرم'
     },{
         hotel : "ماريوت",
-        img : "asets/Img/makkah/22.jpg",
+        img : "asets/Img/makkah/a4.jpg",
         speach : "Situated in Makkah, within 3.5 km of Masjid Al Haram and 10 km of Hira Cave, كــــدي تــــــاور ـــ Kudi Tower features accommodation with a restaurant and free WiFi throughout the property as well as free private parking for guests who drive.",
         city : "مكة المكرمة",
         from : "جبل عمر",
