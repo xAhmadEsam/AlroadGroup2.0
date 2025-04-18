@@ -75,7 +75,7 @@ function hotelsPreducer(hotelSearchs) {
             <img src=${hotel.img}>
             <div class="txt">
                 <h2>
-                    <bdi>${hotel.hotel}</bdi>
+                    
                 </h2>
                 <p>
                 ${hotel.speach}
