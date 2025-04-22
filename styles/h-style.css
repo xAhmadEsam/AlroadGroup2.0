@@ -59,6 +59,46 @@ body {
     font-style: normal;
 }
 
+.f-1 {
+    width: 100%;
+    height: 30px;
+    backdrop-filter: blur(20px);
+    background-color: #4b4c4d;
+}
+
+.wave {
+    display: block;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(158deg, #E9C86C 0%, #906625 50%, #F5E5C2 55%);
+    transform: scale(1, 1);
+}
+
+.wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    right: -25%;
+    top: 20px
+}
+
+.wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 20px;
+    background-color: linear-gradient(158deg, #E9C86C 0%, #906625 50%, #F5E5C2 55%);
+    left: -25%;
+    
+    clip-path: ellipse(100% 15% at -15% 100%);
+}
+
 .first-section {
     height: 695px;
     position: relative;
@@ -629,13 +669,16 @@ video {
     }
 }
 @media only screen and (max-width : 1000px){
+    .itmss {
+        margin-left:0%;
+    }
     #c-name-1 {
         font-size: 0.80em;
     }
     
 
     .first-section {
-        height: 895px;
+        height: 1095px;
     }
     
     
@@ -758,7 +801,7 @@ video {
 
 @media only screen and (max-width : 410px) {
     #c-name {
-        font-size: 0.99em;
+        font-size: 0.93em;
     }
     #c-name-1 {
         font-size: 0.53em;

@@ -129,10 +129,12 @@ body {
     transition: opacity 0.2s ease-out;
 }
 .hotel h2 {
-    position: absolute;
-    inset: auto auto 50px 30px;
-    margin: 0;
-    transition: inset 0.3s 0.3s ease-out;
+    float: right;
+    padding-right: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -143,6 +145,8 @@ body {
     max-width: 80%;
     transition: opacity 0.3s ease-out;
 }
+
+
 .hotel p {
     inset: auto auto 80px 30px;
 }
@@ -153,15 +157,12 @@ body {
     color: #ffe3a1;
 }
 
-.hotel:hover h2 {
-    inset: auto auto 80% 30px;
-    transition: inset 0.3s ease-out;
-}
+
 
 .hotel:hover .txt {
     backdrop-filter: blur(10px);
 }
-.hotel:hover p, .hotel:hover a {
+.hotel:hover p, .hotel:hover a ,.hotel:hover h2  {
     opacity: 1;
     transition: opacity 0.5s 0.1s ease-in;
 }

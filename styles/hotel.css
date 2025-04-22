@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    color: #ffffff;
+
+}
+
+
+
+
+.cairo {
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.cairo-1 {
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+.kanit-bold {
+    font-size: 1.05em;
+}
+
+.itmss {
+    margin-left:12%;
+}
+.reem-kufi-ink-regular {
+    font-family: "Reem Kufi Ink", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f0f0f0;
+}  
+.sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+    font-variation-settings: '400';
+}
+
+.Merriweather {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.kanit-black {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.Merriweather {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.kanit-black {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.Edu {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+/*-----------------------------body--------------------*/
+
+.navbar-collapse {
+    margin-left: 30%;
+}
+
+.alroad {
+    font-size: 2.3em;
+    float: right;
+    margin: 100px ;
+    background-image: linear-gradient(158deg, #E9C86C 0%, #906625 50%, #F5E5C2 55%);
+    color: transparent;
+    background-clip: text;
+}
+
+.carousel {
+    margin-top: 60px;
+    width: 70%;
+    height: 600px;
+    margin-left: 15%;
+    overflow: hidden;
+}
+
+.carousel-item img{
+    object-fit:contain;
+
+}
+
+
+
+/*-----------------------------footer--------------------*/
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #b49f00;
+    margin: 1em 0;
+    margin-top: -5px;
+}
+
+.footer-clean {
+    margin-top: 100px;
+    background-color:#fff;
+    color:#4b4c4d;
+}
+
+
+.footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+}
+
+.footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+    opacity:1;
+}
+
+.footer-clean .item.social {
+    text-align:right;
+}
+
+@media (max-width:767px) {
+    .footer-clean .item {
+        text-align:center;
+        padding-bottom:20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-clean .item.social {
+        text-align:center;
+    }
+}
+
+.footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+    opacity:0.9;
+}
+
+@media (max-width:991px) {
+    .footer-clean .item.social > a {
+        margin-top:40px;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-clean .item.social > a {
+        margin-top:10px;
+    }
+}
+
+.footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+}
+
+
+
+
+@media only screen and (max-width : 990px){
+    .navbar-collapse {
+        margin-left: 0%;
+    }
+    
+}
